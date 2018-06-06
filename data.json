@@ -1,0 +1,20 @@
+{
+	"status" : 200 ,          //执行状态码
+	"msg"    : "SUCCESS",   //说明文字信息，没有为NULL
+	"test"   :[{            //对象中嵌套数组，数组是返回的数据，
+				"id"    : 1 ,
+				"name"  : "prize1",
+				"pic" : "img/telMoney.png"
+				},
+				{
+				"id"    : 2,
+				"name"  : "prize2",
+				"pic" : "img/jd.png"
+				},
+				{
+				"id"    : 3,
+				"name"  : "prize3",
+				"pic" : "img/ofo.png"
+				}
+			]
+}

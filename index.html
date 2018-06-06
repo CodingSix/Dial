@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>转盘抽奖</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	
+	<body>
+		<div id="bg">
+			<header>
+				<img src="img/head.png"  class="head-bg"/>
+				<img src="img/title.png" class="head-title"/>
+			</header>
+			<div id="container">
+				<canvas id="myCanvas" width="300px" height="300px">抱歉！浏览器不支持。</canvas>
+				<img src="img/turntable.png" class="turntable"/>
+				<input type="image" src="img/pointer.png" class="Btn"  />
+			</div>
+			<!--遮罩层-->
+			<div class="back-bg"></div>
+			<!--奖品弹窗-->
+			<div id="window">
+				<img src="img/close.png" class="close"/>
+				<img class="getPic"/>
+				<img src="img/get.png" class="get"/>
+			</div>
+			<form action="" method="post" id="form">
+				<img src="img/close.png" class="close-text"/>
+				<input type="tel" name="tel" placeholder="请输入手机号码" id="tel"/>
+				<input type="text" name="ident" placeholder="请输入验证码" id="ident"/>
+				<input type="button" id="send" value="发送验证码"/>
+				<input type="submit" id="submit" value="提交"/>
+			</form>
+			<footer>
+				<img src="img/footer.png" class="footer-bg"/>
+				<div class="foot-text">
+					<h3>【参与说明】</h3>
+					<span>1.用户每天只限参与一次转盘抽奖。</span>
+					<br />
+					<span>2.部分奖品在有效有效时间内，不可叠加拥有。</span>
+					<br />
+					<span>3.活动参与保持公平、公正、公开。如使用不正常手段参与，一经发现将取消用户中奖礼品，东莞电信拥有本次活动最终解释权。</span>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
